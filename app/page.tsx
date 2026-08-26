@@ -143,10 +143,11 @@ export default function Home() {
         </div>
         <div className="support">
           <div className="support-logo-group">
-            <div className="fund-logo" aria-label="Фонд содействия инновациям">
-              <strong>ФОНД СОДЕЙСТВИЯ<br /><span>ИННОВАЦИЯМ</span></strong>
-              <img src="/support-ribbon.png" alt="" />
-            </div>
+            <img
+              className="fund-logo"
+              src="/innovation-fund-logo.png"
+              alt="Фонд содействия инновациям"
+            />
             <img
               className="platform-university-logo"
               src="/platform-university-logo.png"
