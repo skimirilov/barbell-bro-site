@@ -142,9 +142,16 @@ export default function Home() {
           <div><b>НАВИГАЦИЯ</b><a href="#product">Продукт</a><a href="#how">Как это работает</a><a href="#benefits">Преимущества</a></div>
         </div>
         <div className="support">
-          <div className="fund-logo" aria-label="Фонд содействия инновациям">
-            <strong>ФОНД СОДЕЙСТВИЯ<br /><span>ИННОВАЦИЯМ</span></strong>
-            <img src="/support-ribbon.png" alt="" />
+          <div className="support-logo-group">
+            <div className="fund-logo" aria-label="Фонд содействия инновациям">
+              <strong>ФОНД СОДЕЙСТВИЯ<br /><span>ИННОВАЦИЯМ</span></strong>
+              <img src="/support-ribbon.png" alt="" />
+            </div>
+            <img
+              className="platform-university-logo"
+              src="/platform-university-logo.png"
+              alt="Платформа университетского технологического предпринимательства"
+            />
           </div>
           <p>Проект реализован при поддержке Фонда содействия инновациям в рамках программы «Студенческий стартап» мероприятия «Платформа университетского технологического предпринимательства» федерального проекта «Технологии»</p>
         </div>
